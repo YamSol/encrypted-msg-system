@@ -1,3 +1,7 @@
+# encrypted-msg-system
+Sistema de envio e recebimento de mensagens criptografadas. Sistema de criptografia RSA implementado manualmente.
+
+
 ## No terminal
 Para executar o comando via terminal:
 1. abra a pasta /key_generation
