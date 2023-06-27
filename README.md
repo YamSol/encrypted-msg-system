@@ -12,5 +12,5 @@ Para executar o comando via terminal:
         ```
     - Para Descriptografar:
         ```
-       python -c "import MsgHandler; print(MsgHandler.msg_decrypt('<SUA MENSAGEM>',{'e':769,'n':2047}))"
+       python -c "import MsgHandler; print(MsgHandler.msg_decrypt('<SUA MENSAGEM>',{'e':1649,'n':2047}))"
         ``` 
