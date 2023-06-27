@@ -24,6 +24,8 @@ def gerar_keys(p=23, q=89):
     private = [d,n]
     return [public, private]
     
+
+if (__name__ == "__main__"):
 public, private = gerar_keys()
 print(public)
 print(private)
