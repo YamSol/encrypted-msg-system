@@ -1,5 +1,5 @@
-from key_generation.gerar_par_de_chaves import gerar_keys
-from key_generation.MsgHandler import msg_encrypt, msg_decrypt
+from gerar_par_de_chaves import gerar_keys
+from MsgHandler import msg_encrypt, msg_decrypt
 
 # Titulo
 print('*'*15, "Sistema de Mensagens", '*'*15)
