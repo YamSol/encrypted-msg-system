@@ -12,7 +12,7 @@ def gerar_keys(p=23, q=89):
 
     # remove factor primes
     for prime in avaliable_primes:
-        if (prime % t == 0):
+        if (t % prime == 0):
             avaliable_primes.pop(avaliable_primes.index(prime))
 
     # select a random prime avaliable
